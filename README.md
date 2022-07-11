@@ -1,4 +1,5 @@
 #gitが入っているかの確認
+
 (base) odakana@odakanas-MacBook-Air ~ % git --version
 git version 2.32.1 (Apple Git-13
 
