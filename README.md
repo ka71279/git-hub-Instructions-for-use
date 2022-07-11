@@ -4,9 +4,11 @@
 git version 2.32.1 (Apple Git-13
 
 #Desktopにファイルを作成
+
 (base) odakana@odakanas-MacBook-Air ~ % cd ~/Desktop
 
 #git上のリモートリポジトリをローカル上でクローンする
+
 (base) odakana@odakanas-MacBook-Air Desktop % git clone https://github.com/ka71279/my-first-repo3.git
 Cloning into 'my-first-repo3'...
 remote: Enumerating objects: 3, done.
@@ -17,19 +19,23 @@ Receiving objects: 100% (3/3), done.d
 Receiving objects: 100% (3/3), done
 
 ＃Desktop上のファイルリスト一覧ファイルが作成されていることを確認
+
 (base) odakana@odakanas-MacBook-Air Desktop % ls
 my-first-repo3
 
 ＃作成したファイルの中身のリストを確認
+
 (base) odakana@odakanas-MacBook-Air Desktop % cd my-first-repo3
 (base) odakana@odakanas-MacBook-Air my-first-repo3 % ls
 README.md
 
 ＃ローカルとリモートリポジトリの認識部分の確認
+
 (base) odakana@odakanas-MacBook-Air my-first-repo3 % ls -a
 .		..		.git		README.md
 
 ＃ユーザーの設定
+
 (base) odakana@odakanas-MacBook-Air my-first-repo3 % git config user.name 'ka712
 79'
 (base) odakana@odakanas-MacBook-Air my-first-repo3 % git config user.email 'o.00
@@ -37,6 +43,7 @@ README.md
 (base) odakana@odakanas-MacBook-Air my-first-repo3 % cd ~/Desktop/my-first-repo3
 
 ＃今いるリポジトリの場所を確認
+
 (base) odakana@odakanas-MacBook-Air my-first-repo3 % git branch
 * main
 (base) odakana@odakanas-MacBook-Air my-first-repo3 % git checkout -b update-read
